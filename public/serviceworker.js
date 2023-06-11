@@ -17,13 +17,13 @@ this.addEventListener("install", (event) => {
                 '/admin/addUser',
                 '/admin/workersList',
                 '/admin/childrenProfiles',
-                '/caseManager',
-                '/caseManager/addChild',
-                '/caseManager/profiles',
-                '/caseManager/reports',
-                '/caseManager/taskStatus',
-                '/caseManager/taskComments',
-                '/groundWorker'
+                // '/caseManager',
+                // '/caseManager/addChild',
+                // '/caseManager/profiles',
+                // '/caseManager/reports',
+                // '/caseManager/taskStatus',
+                // '/caseManager/taskComments',
+                // '/groundWorker'
             ])
         })
     )
