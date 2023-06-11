@@ -5,6 +5,8 @@ this.addEventListener("install", (event) => {
         caches.open(cacheData).then((cache) => {
             cache.addAll([
                 '/static/js/bundle.js',
+                'static/js/main.ee0924d1.js',
+                'static/css/main.513ac754.css',
                 'logo_scroll.png',
                 // 'https://apis.google.com/js/api.js?onload=__iframefcb418694',
                 // 'https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.wW0KrNepdTU.O/m=gapi_iframes/rt=j/sv=1/d=1/ed=1/rs=AHpOoo8Je2IwWe-sD_xcm5fABAaEfyuc1g/cb=gapi.loaded_0?le=scs',
